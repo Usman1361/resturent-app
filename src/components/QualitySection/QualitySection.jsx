@@ -4,6 +4,24 @@ import MiniCard from "../MiniCard/MiniCard";
 import { icon1, icon2, icon3, icon4 } from "../smallComponents/images";
 
 const QualitySection = () => {
+  // let qualityAtt = [
+  //   {
+  //     title: "Quality Food",
+  //     icon: icon1,
+  //   },
+  //   {
+  //     title: "Classical taste",
+  //     icon: icon2,
+  //   },
+  //   {
+  //     title: "Skilled chef",
+  //     icon: icon3,
+  //   },
+  //   {
+  //     title: "Best service",
+  //     icon: icon4,
+  //   },
+  // ];
   return (
     <Box>
       <Container>
@@ -39,6 +57,14 @@ const QualitySection = () => {
               </Typography>
             </Box>
           </Grid>
+
+          {/* {qualityAtt.map(({ title, icon }) => (
+            <Grid item xs={12} md={3}>
+                <Box>
+                  <MiniCard Image={icon} Title={title} />
+                </Box>
+            </Grid>
+          ))} */}
           <Grid
             item
             xs={11}
@@ -47,10 +73,11 @@ const QualitySection = () => {
               marginTop: { xs: "30px", sm: "10px", md: "0px" },
             }}
           >
+
             <Stack
               direction="row"
               justifyContent="center"
-              ml={{ xs: 1, md: 7 }}
+              ml={{ xs: 1, sm: 5, md: 7 }}
               spacing={3}
             >
               <Box>
@@ -62,7 +89,7 @@ const QualitySection = () => {
             </Stack>
             <Stack
               direction="row"
-              ml={{ xs: 1, md: 7 }}
+              ml={{ xs: 1, sm: 5, md: 7 }}
               justifyContent="center"
               mt={3}
               spacing={3}

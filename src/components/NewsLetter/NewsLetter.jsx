@@ -14,8 +14,8 @@ const NewsLetter = () => {
   return (
     <Box>
       <Container>
-        <Grid container>
-          <Box ml={{ xs: 0, sm: 10, md: 5 }} mt={15}>
+        <Grid container sx={{ justifyContent: "center" }}>
+          <Box  mt={15}>
             <Card
               sx={{
                 maxWidth: 1500,

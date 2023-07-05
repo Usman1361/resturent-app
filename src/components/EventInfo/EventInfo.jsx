@@ -10,7 +10,7 @@ const EventInfo = () => {
       <Container>
         <Grid container mt={14} sx={{ justifyContent: "center" }}>
           <Grid item xs={12} md={6}>
-            <Stack direction="column">
+            <Stack direction="column" sx={{ alignItems: "center" }}>
               <Box>
                 <EventCard
                   Description="Shaif's Cuisine is the perfect venue for your corporate events. We specialize in private parties"

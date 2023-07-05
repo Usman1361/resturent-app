@@ -42,6 +42,7 @@ function Header(props) {
             <ListItemButton
               sx={{
                 textAlign: "center",
+                justifyContent: "center",
               }}
             >
               {i === 0 && (
@@ -82,7 +83,12 @@ function Header(props) {
             </ListItemButton>
           </ListItem>
         ))}
-        <Button color="success" variant="contained" size="small">
+        <Button
+          mt={{ xs: 5, md: 0 }}
+          color="success"
+          variant="contained"
+          size="small"
+        >
           <Link
             to="/booktable"
             style={{ textDecoration: "none", color: "White" }}

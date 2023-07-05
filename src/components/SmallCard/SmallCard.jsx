@@ -9,7 +9,9 @@ export default function SmallCard(props) {
         backgroundColor: "#d6e5d8",
         borderRadius: "12px",
         maxWidth: { xs: 480, md: 595 },
-        maxHeight: { xs: 320, md: 380 },
+        maxHeight: { xs: 300, md: 250 },
+        // height: { xs: 300, md: 200 },
+        
       }}
     >
       <Container maxWidth="xl">

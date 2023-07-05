@@ -28,7 +28,7 @@ const SmallCardPortion = () => {
             </Box>
           </Grid>
           <Grid item xs={6} sm={4} md={4}>
-            <Box mt={{ xs: 3, sm: 3, md: 0 }} ml={{ xs: 2, sm: 5, md: 2 }}>
+            <Box mt={{ xs: 3, sm: 3, md: 0 }} ml={{ xs: 0, sm: 5, md: 2 }}>
               <SmallCard Title="Hot Green Bowl" Image={dish7} />
             </Box>
           </Grid>

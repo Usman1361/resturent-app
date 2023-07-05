@@ -7,9 +7,18 @@ import WifiCalling3Icon from "@mui/icons-material/WifiCalling3";
 const CardCollection = () => {
   return (
     <Box>
-      <Container maxWidth="xl">
-        <Grid container mt={6} sx={{ justifyContent: "center" }}>
-          <Grid item xs={6} sm={3} md={2}>
+      <Container
+        maxWidth="xl"
+        
+      >
+        <Grid container mt={6} sx={{ display: "flex", justifyContent: "center" }}>
+          <Grid
+            item
+            xs={6}
+            sm={3}
+            md={2}
+            sx={{ display: "flex", justifyContent: "center" }}
+          >
             <Box>
               <Cards
                 Icon={AccessTimeFilledIcon}
@@ -24,8 +33,10 @@ const CardCollection = () => {
             sm={3}
             md={2}
             sx={{
+              display: "flex",
+              justifyContent: "center",
               paddingLeft: { xs: "12px", sm: "0px" },
-              justifyContent: "left",
+             
             }}
           >
             <Box>
@@ -38,11 +49,12 @@ const CardCollection = () => {
           </Grid>
           <Grid
             item
-            xs={7}
+            xs={12}
             sm={3}
             md={2}
             sx={{
-              paddingLeft: { xs: "12px", sm: "0px" },
+              display: "flex",
+              justifyContent: "center",
               marginTop: { xs: "20px", sm: "0px" },
             }}
           >

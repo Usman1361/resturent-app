@@ -11,10 +11,10 @@ export default function Cards(props) {
         <Box>
           <Card
             sx={{
-              maxWidth: 145,
+              width: 145,
               maxHeight: 200,
               boxShadow: "none",
-              borderRadius: "12px"
+              borderRadius: "12px",
             }}
           >
             <CardContent
@@ -23,7 +23,7 @@ export default function Cards(props) {
                 textAlign: "center",
                 backgroundColor: "#d6e5d8",
                 padding: "5px",
-                paddingY: "30px",
+                paddingY: "25px",
               }}
             >
               {React.createElement(props.Icon, {

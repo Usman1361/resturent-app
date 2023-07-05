@@ -12,7 +12,7 @@ import CustomerReview from "./components/CustomerReview/CustomerReview";
 import NewsLetter from "./components/NewsLetter/NewsLetter";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Menu from "./pages/menu";
+import Menu from "./pages/Menu";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import BookTable from "./pages/BookTable";
